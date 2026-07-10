@@ -1,0 +1,27 @@
+import pandas as pd
+
+# [주의] 아래 문자열 대신, 2단계에서 복사한 '본인의 구글 시트 ID'를 붙여넣으세요.
+SHEET_ID = "import pandas as pd
+
+# [주의] 아래 문자열 대신, 2단계에서 복사한 '본인의 구글 시트 ID'를 붙여넣으세요.
+SHEET_ID = "1A2B3C4D5E6F7G8H9I0J_kLmNoPqRsTuVwXyZ"
+
+# 구글 시트를 CSV 형태로 다운로드 서빙해주는 특수 URL 주소를 만듭니다.
+url = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/export?format=csv"
+
+# pandas의 read_csv 함수를 이용해 인터넷 주소(URL)에서 데이터를 바로 읽어옵니다.
+df = pd.read_csv(url)
+
+# 데이터가 잘 들어왔는지 상위 5개 행을 출력해봅니다.
+print("--- 데이터 불러오기 성공! ---")
+print(df.head())"
+
+# 구글 시트를 CSV 형태로 다운로드 서빙해주는 특수 URL 주소를 만듭니다.
+url = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/export?format=csv"
+
+# pandas의 read_csv 함수를 이용해 인터넷 주소(URL)에서 데이터를 바로 읽어옵니다.
+df = pd.read_csv(url)
+
+# 데이터가 잘 들어왔는지 상위 5개 행을 출력해봅니다.
+print("--- 데이터 불러오기 성공! ---")
+print(df.head())

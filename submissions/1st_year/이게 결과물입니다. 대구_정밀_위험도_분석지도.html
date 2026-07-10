@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_29ea81b54244e54d0e98b8220e5ce580 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_29ea81b54244e54d0e98b8220e5ce580" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_29ea81b54244e54d0e98b8220e5ce580 = L.map(
+                "map_29ea81b54244e54d0e98b8220e5ce580",
+                {
+                    center: [35.8714, 128.6014],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_15e6f8d363e856ba12e2807026997e28 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_15e6f8d363e856ba12e2807026997e28.addTo(map_29ea81b54244e54d0e98b8220e5ce580);
+        
+    
+            var circle_7994f611cb3749868d181fe384c24130 = L.circle(
+                [35.83681893110611, 128.5363756102982],
+                {"bubblingMouseEvents": true, "color": "#008000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4DFF4D", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": false, "weight": 3}
+            ).addTo(map_29ea81b54244e54d0e98b8220e5ce580);
+        
+    
+        var popup_c445b4d8d2e0d44bbd7d96e30b1513dd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_223a93fc11e4ab59e96fe6ea3c2477aa = $(`<div id="html_223a93fc11e4ab59e96fe6ea3c2477aa" style="width: 100.0%; height: 100.0%;"><b>🟢 정밀 안전 구역</b><br>보안/보호 시설 밀집: 2884개소</div>`)[0];
+                popup_c445b4d8d2e0d44bbd7d96e30b1513dd.setContent(html_223a93fc11e4ab59e96fe6ea3c2477aa);
+            
+        
+
+        circle_7994f611cb3749868d181fe384c24130.bindPopup(popup_c445b4d8d2e0d44bbd7d96e30b1513dd)
+        ;
+
+        
+    
+    
+            var circle_22e39d91367408268688764ae2b48d78 = L.circle(
+                [35.852009667738095, 128.48063189880952],
+                {"bubblingMouseEvents": true, "color": "#008000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4DFF4D", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": false, "weight": 3}
+            ).addTo(map_29ea81b54244e54d0e98b8220e5ce580);
+        
+    
+        var popup_2ccc8b81382027f1bdafcadad1d1b8d9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_38dd7acac22ddfbaac9c19356562e440 = $(`<div id="html_38dd7acac22ddfbaac9c19356562e440" style="width: 100.0%; height: 100.0%;"><b>🟢 정밀 안전 구역</b><br>보안/보호 시설 밀집: 84개소</div>`)[0];
+                popup_2ccc8b81382027f1bdafcadad1d1b8d9.setContent(html_38dd7acac22ddfbaac9c19356562e440);
+            
+        
+
+        circle_22e39d91367408268688764ae2b48d78.bindPopup(popup_2ccc8b81382027f1bdafcadad1d1b8d9)
+        ;
+
+        
+    
+    
+            var circle_da13c454bd499c83a4603b45fa3253b9 = L.circle(
+                [35.797650418888885, 128.5473522],
+                {"bubblingMouseEvents": true, "color": "#008000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4DFF4D", "fillOpacity": 0.65, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 270, "stroke": false, "weight": 3}
+            ).addTo(map_29ea81b54244e54d0e98b8220e5ce580);
+        
+    
+        var popup_6d8826f9ee445b67f9da4c8fd0d13ad8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_35c2fd5371912a40cba2d599b80daf46 = $(`<div id="html_35c2fd5371912a40cba2d599b80daf46" style="width: 100.0%; height: 100.0%;"><b>🟢 정밀 안전 구역</b><br>보안/보호 시설 밀집: 9개소</div>`)[0];
+                popup_6d8826f9ee445b67f9da4c8fd0d13ad8.setContent(html_35c2fd5371912a40cba2d599b80daf46);
+            
+        
+
+        circle_da13c454bd499c83a4603b45fa3253b9.bindPopup(popup_6d8826f9ee445b67f9da4c8fd0d13ad8)
+        ;
+
+        
+    
+    
+            var circle_0c57718bfa014f5726058ffe18777190 = L.circle(
+                [35.841006372857144, 128.51619375714284],
+                {"bubblingMouseEvents": true, "color": "#008000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4DFF4D", "fillOpacity": 0.55, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 210, "stroke": false, "weight": 3}
+            ).addTo(map_29ea81b54244e54d0e98b8220e5ce580);
+        
+    
+        var popup_0afc81aa3d2b02a6fb463fb4b38461f9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9aedb8ce458a1b820dcaa563d5c8cccd = $(`<div id="html_9aedb8ce458a1b820dcaa563d5c8cccd" style="width: 100.0%; height: 100.0%;"><b>🟢 정밀 안전 구역</b><br>보안/보호 시설 밀집: 7개소</div>`)[0];
+                popup_0afc81aa3d2b02a6fb463fb4b38461f9.setContent(html_9aedb8ce458a1b820dcaa563d5c8cccd);
+            
+        
+
+        circle_0c57718bfa014f5726058ffe18777190.bindPopup(popup_0afc81aa3d2b02a6fb463fb4b38461f9)
+        ;
+
+        
+    
+    
+            var circle_55626f3506324c00ad0870ece155b8b7 = L.circle(
+                [35.832497388, 128.49749571],
+                {"bubblingMouseEvents": true, "color": "#008000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4DFF4D", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 300, "stroke": false, "weight": 3}
+            ).addTo(map_29ea81b54244e54d0e98b8220e5ce580);
+        
+    
+        var popup_55e6566c6b822126aaeb591b10b0d5c3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_55b214bafe979d4a587f8f313cd77884 = $(`<div id="html_55b214bafe979d4a587f8f313cd77884" style="width: 100.0%; height: 100.0%;"><b>🟢 정밀 안전 구역</b><br>보안/보호 시설 밀집: 10개소</div>`)[0];
+                popup_55e6566c6b822126aaeb591b10b0d5c3.setContent(html_55b214bafe979d4a587f8f313cd77884);
+            
+        
+
+        circle_55626f3506324c00ad0870ece155b8b7.bindPopup(popup_55e6566c6b822126aaeb591b10b0d5c3)
+        ;
+
+        
+    
+    
+            var circle_da2bde257d5b1a0d98b30a7b0a7cb95b = L.circle(
+                [35.84318539, 128.48853194999998],
+                {"bubblingMouseEvents": true, "color": "#008000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4DFF4D", "fillOpacity": 0.30000000000000004, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": false, "weight": 3}
+            ).addTo(map_29ea81b54244e54d0e98b8220e5ce580);
+        
+    
+        var popup_c0b332b666d8c1bdbe5c80ec62ada478 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_590411076e28e50efe336fc454eaa534 = $(`<div id="html_590411076e28e50efe336fc454eaa534" style="width: 100.0%; height: 100.0%;"><b>🟢 정밀 안전 구역</b><br>보안/보호 시설 밀집: 2개소</div>`)[0];
+                popup_c0b332b666d8c1bdbe5c80ec62ada478.setContent(html_590411076e28e50efe336fc454eaa534);
+            
+        
+
+        circle_da2bde257d5b1a0d98b30a7b0a7cb95b.bindPopup(popup_c0b332b666d8c1bdbe5c80ec62ada478)
+        ;
+
+        
+    
+    
+            var circle_91dd9057dd0fb4a517910d4c09277d93 = L.circle(
+                [35.837874653750006, 128.49034582500002],
+                {"bubblingMouseEvents": true, "color": "#008000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4DFF4D", "fillOpacity": 0.6000000000000001, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 240, "stroke": false, "weight": 3}
+            ).addTo(map_29ea81b54244e54d0e98b8220e5ce580);
+        
+    
+        var popup_f7648f25833327f1372efb17794735f1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a43eaf40725f781ecae85b7edf6b5ff3 = $(`<div id="html_a43eaf40725f781ecae85b7edf6b5ff3" style="width: 100.0%; height: 100.0%;"><b>🟢 정밀 안전 구역</b><br>보안/보호 시설 밀집: 8개소</div>`)[0];
+                popup_f7648f25833327f1372efb17794735f1.setContent(html_a43eaf40725f781ecae85b7edf6b5ff3);
+            
+        
+
+        circle_91dd9057dd0fb4a517910d4c09277d93.bindPopup(popup_f7648f25833327f1372efb17794735f1)
+        ;
+
+        
+    
+    
+            var circle_211fd3988bc7a8f100e196d4fd1a5b79 = L.circle(
+                [35.84253889, 128.5022389],
+                {"bubblingMouseEvents": true, "color": "#008000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4DFF4D", "fillOpacity": 0.35000000000000003, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": false, "weight": 3}
+            ).addTo(map_29ea81b54244e54d0e98b8220e5ce580);
+        
+    
+        var popup_c787a7205ef30ac786d93943fe1dd102 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_791e9d3164d0a6025413a1e93db3b8fa = $(`<div id="html_791e9d3164d0a6025413a1e93db3b8fa" style="width: 100.0%; height: 100.0%;"><b>🟢 정밀 안전 구역</b><br>보안/보호 시설 밀집: 3개소</div>`)[0];
+                popup_c787a7205ef30ac786d93943fe1dd102.setContent(html_791e9d3164d0a6025413a1e93db3b8fa);
+            
+        
+
+        circle_211fd3988bc7a8f100e196d4fd1a5b79.bindPopup(popup_c787a7205ef30ac786d93943fe1dd102)
+        ;
+
+        
+    
+    
+            var circle_8d23cb5601b77dae96c171dca344be0a = L.circle(
+                [35.80751565695653, 128.55882742173912],
+                {"bubblingMouseEvents": true, "color": "#008000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4DFF4D", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 500, "stroke": false, "weight": 3}
+            ).addTo(map_29ea81b54244e54d0e98b8220e5ce580);
+        
+    
+        var popup_3a41f0692e75b227f4f675d6df4dadec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_01266f4bdb23110c6de519a32d5d4e7d = $(`<div id="html_01266f4bdb23110c6de519a32d5d4e7d" style="width: 100.0%; height: 100.0%;"><b>🟢 정밀 안전 구역</b><br>보안/보호 시설 밀집: 23개소</div>`)[0];
+                popup_3a41f0692e75b227f4f675d6df4dadec.setContent(html_01266f4bdb23110c6de519a32d5d4e7d);
+            
+        
+
+        circle_8d23cb5601b77dae96c171dca344be0a.bindPopup(popup_3a41f0692e75b227f4f675d6df4dadec)
+        ;
+
+        
+    
+    
+            var circle_29caaa2e77d26dad862218d6640f0957 = L.circle(
+                [35.813675, 128.5076722],
+                {"bubblingMouseEvents": true, "color": "#008000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4DFF4D", "fillOpacity": 0.35000000000000003, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": false, "weight": 3}
+            ).addTo(map_29ea81b54244e54d0e98b8220e5ce580);
+        
+    
+        var popup_abadbec16c9d75fe39361c8caaf0d61d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_05c452a4d0f257fceecc05f3fb876988 = $(`<div id="html_05c452a4d0f257fceecc05f3fb876988" style="width: 100.0%; height: 100.0%;"><b>🟢 정밀 안전 구역</b><br>보안/보호 시설 밀집: 3개소</div>`)[0];
+                popup_abadbec16c9d75fe39361c8caaf0d61d.setContent(html_05c452a4d0f257fceecc05f3fb876988);
+            
+        
+
+        circle_29caaa2e77d26dad862218d6640f0957.bindPopup(popup_abadbec16c9d75fe39361c8caaf0d61d)
+        ;
+
+        
+    
+    
+            var circle_18bffdf0c28a28295d84c39e462b7d5f = L.circle(
+                [35.84605556, 128.4970944],
+                {"bubblingMouseEvents": true, "color": "#008000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4DFF4D", "fillOpacity": 0.30000000000000004, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": false, "weight": 3}
+            ).addTo(map_29ea81b54244e54d0e98b8220e5ce580);
+        
+    
+        var popup_3b7396507ea60f119533460c7f24b31b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a3d7d2103161d6c5df65152c529a4d9d = $(`<div id="html_a3d7d2103161d6c5df65152c529a4d9d" style="width: 100.0%; height: 100.0%;"><b>🟢 정밀 안전 구역</b><br>보안/보호 시설 밀집: 2개소</div>`)[0];
+                popup_3b7396507ea60f119533460c7f24b31b.setContent(html_a3d7d2103161d6c5df65152c529a4d9d);
+            
+        
+
+        circle_18bffdf0c28a28295d84c39e462b7d5f.bindPopup(popup_3b7396507ea60f119533460c7f24b31b)
+        ;
+
+        
+    
+    
+            var circle_8b8ed334c8dac6c6a45b785b33a082dd = L.circle(
+                [35.8221981, 128.4921291],
+                {"bubblingMouseEvents": true, "color": "#008000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4DFF4D", "fillOpacity": 0.35000000000000003, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": false, "weight": 3}
+            ).addTo(map_29ea81b54244e54d0e98b8220e5ce580);
+        
+    
+        var popup_2c1939a4ccd5ecbafb696b9be1d4a55a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fcffa780fb6e7ca5b54b631d638d0e7a = $(`<div id="html_fcffa780fb6e7ca5b54b631d638d0e7a" style="width: 100.0%; height: 100.0%;"><b>🟢 정밀 안전 구역</b><br>보안/보호 시설 밀집: 3개소</div>`)[0];
+                popup_2c1939a4ccd5ecbafb696b9be1d4a55a.setContent(html_fcffa780fb6e7ca5b54b631d638d0e7a);
+            
+        
+
+        circle_8b8ed334c8dac6c6a45b785b33a082dd.bindPopup(popup_2c1939a4ccd5ecbafb696b9be1d4a55a)
+        ;
+
+        
+    
+    
+            var circle_234cc8d9a3c275213747e89287440738 = L.circle(
+                [35.8626816, 128.4914763],
+                {"bubblingMouseEvents": true, "color": "#008000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4DFF4D", "fillOpacity": 0.30000000000000004, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": false, "weight": 3}
+            ).addTo(map_29ea81b54244e54d0e98b8220e5ce580);
+        
+    
+        var popup_73c5892ae5d56006eeb0049c996e2acb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9ff21853f4e8bcd275e4068a20986390 = $(`<div id="html_9ff21853f4e8bcd275e4068a20986390" style="width: 100.0%; height: 100.0%;"><b>🟢 정밀 안전 구역</b><br>보안/보호 시설 밀집: 2개소</div>`)[0];
+                popup_73c5892ae5d56006eeb0049c996e2acb.setContent(html_9ff21853f4e8bcd275e4068a20986390);
+            
+        
+
+        circle_234cc8d9a3c275213747e89287440738.bindPopup(popup_73c5892ae5d56006eeb0049c996e2acb)
+        ;
+
+        
+    
+    
+            var circle_4c5e974cc0565d006c27d8addbab2aed = L.circle(
+                [35.8248788, 128.5069831],
+                {"bubblingMouseEvents": true, "color": "#008000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4DFF4D", "fillOpacity": 0.35000000000000003, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": false, "weight": 3}
+            ).addTo(map_29ea81b54244e54d0e98b8220e5ce580);
+        
+    
+        var popup_ed21a08d4530f5735a4ace6092b10408 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9141df79e561976c285114e02b907ae2 = $(`<div id="html_9141df79e561976c285114e02b907ae2" style="width: 100.0%; height: 100.0%;"><b>🟢 정밀 안전 구역</b><br>보안/보호 시설 밀집: 3개소</div>`)[0];
+                popup_ed21a08d4530f5735a4ace6092b10408.setContent(html_9141df79e561976c285114e02b907ae2);
+            
+        
+
+        circle_4c5e974cc0565d006c27d8addbab2aed.bindPopup(popup_ed21a08d4530f5735a4ace6092b10408)
+        ;
+
+        
+    
+    
+            var circle_f72c014f42f1b821e3bd4748e12e0f8c = L.circle(
+                [35.838246, 128.540543],
+                {"bubblingMouseEvents": true, "color": "#FF0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FF4D4D", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 600, "stroke": false, "weight": 3}
+            ).addTo(map_29ea81b54244e54d0e98b8220e5ce580);
+        
+    
+        var popup_cdf5a3f52931568914a104ebb555fd11 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_441030ed622c5883131d20961711fad9 = $(`<div id="html_441030ed622c5883131d20961711fad9" style="width: 100.0%; height: 100.0%;"><b>⚠️ 정밀 위험 구역 (불법주정차)</b><br>위치: 본리동 1150 부근<br>신고 건수: 821건</div>`)[0];
+                popup_cdf5a3f52931568914a104ebb555fd11.setContent(html_441030ed622c5883131d20961711fad9);
+            
+        
+
+        circle_f72c014f42f1b821e3bd4748e12e0f8c.bindPopup(popup_cdf5a3f52931568914a104ebb555fd11)
+        ;
+
+        
+    
+</script>
+</html>
